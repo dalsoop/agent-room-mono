@@ -1,0 +1,147 @@
+"menu.refresh" = "Refresh";
+"menu.settings" = "Settings…";
+"menu.quit" = "Quit";
+"settings.title" = "AgentRoomTerminal Settings";
+"settings.language" = "Language";
+"settings.launch_at_login" = "Launch at Login";
+"cli.usage" = "AgentRoomTerminal — AgentRoomTerminal CLI (helpers dual-entry)
+
+Commands:
+  capabilities              Print the app interop contract ({ok,result} envelope)
+  version, -V, --version    Print CLI stamp
+  help, -h, --help          This help
+  open                      Open the GUI app (via /usr/bin/open)
+
+Next steps (contract · ship · MR): agent-cli-scaffold checklist --app agent-room-terminal
+
+Install after the feature MR is merged:
+  app-build-manager ship apps/<app> release
+
+Examples:
+  agent-room-terminal capabilities --json
+  agent-room-terminal version";
+"cli.error.unknown_command" = "unknown command: %@ (try help)";
+"cli.error.open_failed" = "open failed: %@";
+"onboarding.title" = "Agent Room Terminal";
+"onboarding.subtitle" = "Securely govern agent sessions within isolated rooms guarded by safety walls.";
+"onboarding.feature.room.title" = "Room Workspace Isolation";
+"onboarding.feature.room.detail" = "Assigns an isolated tenant folder and dedicated terminal to keep agent sessions safely bounded.";
+"onboarding.feature.shell.title" = "Restricted Shell (zsh -r)";
+"onboarding.feature.shell.detail" = "Prevents shell escapes by restricting cd navigation, redirections, and absolute-path execution.";
+"onboarding.feature.path.title" = "Dedicated Tool Path (bin/ PATH)";
+"onboarding.feature.path.detail" = "Exposes only explicitly permitted tools in PATH, blocking unapproved system binaries.";
+"onboarding.feature.seatbelt.title" = "Kernel Sandbox (seatbelt)";
+"onboarding.feature.seatbelt.detail" = "Enforces macOS sandbox-exec kernel profiles to block file writes outside the room directory.";
+"onboarding.note" = "Sessions are strictly bounded within the walls; external interactions require handovers or approved tools.";
+"onboarding.skip" = "Later";
+"onboarding.start" = "Get started";
+"onboarding.need_required" = "Turn on required items";
+"onboarding.defaults.title" = "Recommended defaults";
+"onboarding.defaults.detail" = "Room sandbox paths and local store defaults are applied.";
+"onboarding.required.title" = "Required settings";
+"onboarding.required.detail" = "Turn on items the system asks for so the room terminal can run.";
+"onboarding.required.action" = "Turn on now";
+"canvas.example" = "Example";
+"canvas.commandRoom" = "Control Room";
+"canvas.view_mode.terminal" = "Terminal";
+"canvas.view_mode.canvas" = "Canvas";
+"canvas.view_mode.perspective" = "Perspective";
+"timeline.activity" = "Timeline & Activity";
+"canvas.tenant_filter.all" = "All Tenants";
+"canvas.hide_inactive" = "Hide Inactive Rooms";
+"canvas.fit_to_screen" = "Fit to View";
+"canvas.empty" = "No rooms to display";
+"menu.stand_up" = "Create Room";
+"standup.title" = "Create a Room";
+"standup.blueprint" = "Blueprint";
+"standup.tenant" = "Tenant";
+"standup.confirm" = "Create";
+"standup.cancel" = "Cancel";
+"standup.empty" = "No blueprint or tenant to create";
+"menu.open_room" = "Open Session";
+"menu.close_room" = "Close Session";
+"menu.handoff" = "Handover";
+"menu.simulate" = "Handover Rehearsal";
+"menu.habits" = "Show Learned Procedures";
+"detail.markdown" = "ROOM.md";
+"detail.budget" = "Context Usage";
+"detail.bottles" = "Handover Notes";
+"detail.habits" = "Learned Procedures";
+"detail.none" = "None";
+"detail.empty" = "Select a room";
+"detail.excluded" = "Excluded Tools";
+"detail.excluded_unknown" = "Could not read the reason";
+"detail.credential_seeded" = "Claude login ready";
+"detail.credential_unseeded" = "Claude login not ready";
+"budget.unknown" = "Unmeasured";
+"settings.tuning" = "Tuning";
+"settings.idle_seconds" = "Idle seconds";
+"settings.ring_lines" = "Ring lines";
+"settings.handoff_factor" = "Handoff factor";
+"settings.replay_count" = "Replay count";
+"settings.promote_successes" = "Promotion successes";
+"settings.restore_factory" = "Restore factory";
+
+"filter.active" = "Active";
+"filter.all" = "All";
+"search.placeholder" = "Search rooms…";
+"rooms.empty" = "No rooms to display";
+"toolbar.open_session" = "Open Session";
+"toolbar.close_session" = "Close Session";
+"toolbar.handoff" = "Leave Handover Note";
+"toolbar.verdict" = "Run Verdict";
+"toolbar.open_folder" = "Open Work Folder";
+"terminal.no_session" = "There is no open session in this room yet";
+"detail.task" = "Task";
+"detail.verdict" = "Verdict Condition";
+"detail.write_paths" = "Write Paths";
+"detail.network" = "Network";
+"detail.wall_preset" = "Wall Preset";
+"detail.attach_walls" = "Attach walls";
+"detail.occupant" = "Occupant";
+"detail.seat_chain" = "Seat chain";
+"detail.seat_predecessor" = "Predecessor";
+"detail.seat_current" = "Current";
+"detail.seat_successor" = "Successor";
+"detail.seat_chain_none" = "No seat chain";
+"detail.seat_chain_stale" = "Snapshot is stale";
+"detail.seat_chain_unavailable" = "Seat chain unavailable";
+"preset.read_only" = "Restricted";
+"preset.toolbelt" = "Toolbelt";
+"preset.open" = "Host full PATH";
+"network.open" = "Allowed";
+"network.blocked" = "Blocked";
+"network.allowed" = "Allowed";
+"settings.advanced" = "Advanced";
+"settings.idle_seconds_desc" = "Idle time before session is considered waiting for input (seconds)";
+"settings.ring_lines_desc" = "Maximum lines stored in terminal scrollback ring buffer";
+"settings.handoff_factor_desc" = "Threshold factor for triggering room handover";
+"settings.replay_count_desc" = "Number of historical entries replayed on attach";
+"settings.promote_successes_desc" = "Consecutive successes needed to promote procedure";
+
+"briefing.title" = "Briefing";
+"briefing.task" = "Task";
+"briefing.verdict" = "Verdict";
+"briefing.write_paths" = "Write paths";
+"briefing.tools" = "Tools";
+"briefing.done" = "Done";
+"briefing.in_progress" = "In progress";
+"briefing.default_tools" = "Default tools";
+"briefing.none" = "None";
+"briefing.host_path" = "Host full PATH";
+"briefing.sandbox" = "Sandbox";
+
+"detail.result" = "Result";
+"result.done" = "done";
+"result.partial" = "partial";
+"result.blocked" = "blocked";
+"result.open_log" = "Open launch.log";
+
+"ledger.approved" = "Approved";
+"ledger.rejected" = "Rejected";
+"ledger.gated" = "Gated";
+"ledger.escalated" = "Escalated";
+"ledger.blocked" = "Blocked";
+"budget.over" = "Over";
+"budget.handoff_due" = "Handoff";
+"budget.ok" = "OK";

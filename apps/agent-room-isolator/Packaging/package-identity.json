@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "name": "GujoAgentRoomIsolator",
+  "bundle_id": "net.ranode.agent-room-isolator",
+  "cli": "agent-room-isolator",
+  "object": "AgentRoomWorktree",
+  "display": "Agent Room Worktree",
+  "program": "agent-room-isolator",
+  "purpose": "방 개념을 먼저 잠그고 git 워크트리를 그 방에 결속한 뒤 ROOM.md·DESIGN.md·AGENTS.md를 방 폴더에 발행한다. 원장은 agent-work-todo, git은 agent-worktree-control-terminal에 위임한다.",
+  "state_root_env": "SWIFT_APP_STATE_ROOT",
+  "dual_entry": "helpers",
+  "prefix": "app",
+  "gui_product": "AgentRoomWorktree",
+  "cli_product": "agent-room-isolator",
+  "cli_helper_path": "Contents/Helpers/agent-room-isolator",
+  "app_aliases": [
+    "AgentRoomWorktree.app"
+  ],
+  "agent_surface": {
+    "skills": [],
+    "agents": [],
+    "attach_on": [
+      "skill-install",
+      "ship"
+    ],
+    "prefer_catalog_symlink": true
+  },
+  "note": "public CLI = kebab full name; dual_entry=helpers — PATH CLI product (never MacOS GUI app-link)."
+}

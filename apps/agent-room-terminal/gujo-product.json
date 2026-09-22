@@ -1,0 +1,78 @@
+{
+  "uuid": "098ed896-2135-42a6-aeda-317d1e483130",
+  "binding": {
+    "product_id": null,
+    "catalog_slug": "agent-room-terminal",
+    "store_catalog_id": null,
+    "store_catalog_url": null,
+    "gujo_api": "https://gujo.ai",
+    "support_url": "https://support.gujo.ai",
+    "account_url": "https://apps.gujo.ai/downloads",
+    "distribution_doc": "DISTRIBUTION.md"
+  },
+  "content": {
+    "ko": {
+      "name": "Agent Room Command Terminal",
+      "summary": "격리된 작업 환경에 직접 명령을 전달하고 표준 입출력을 실시간 상호작용하는 터미널 콘솔입니다.",
+      "body_markdown_inline": "Agent Room Command Terminal은 특정 작업 공간에 직접 부착하여 명령어를 내리고 실시간 표준 입출력을 주고받는 상호작용 터미널 인터페이스입니다. 터미널 다중 분할 뷰와 세션 유지 기능을 제공하여 에이전트의 복잡한 실행 과정을 현장에서 직접 디버깅할 수 있습니다."
+    },
+    "en": {
+      "name": "Agent Room Command Terminal",
+      "summary": "Interactive terminal console providing direct I/O and command routing to isolated rooms.",
+      "body_markdown_inline": "Interactive terminal console providing direct I/O and command routing to isolated rooms. Provides native macOS architecture, robust performance, and dual-entry surface coverage."
+    }
+  },
+  "platforms": [
+    "macos"
+  ],
+  "runtime": "app",
+  "tags": [
+    "macos",
+    "gujo",
+    "개발자 도구"
+  ],
+  "x-store": {
+    "slug": "agent-room-terminal",
+    "title": "Agent Room Command Terminal",
+    "tagline": "에이전트 작업 공간에 직접 연결하여 명령을 실행하고 로그를 확인하는 터미널",
+    "body": "Agent Room Command Terminal은 특정 작업 공간에 직접 부착하여 명령어를 내리고 실시간 표준 입출력을 주고받는 상호작용 터미널 인터페이스입니다. 터미널 다중 분할 뷰와 세션 유지 기능을 제공하여 에이전트의 복잡한 실행 과정을 현장에서 직접 디버깅할 수 있습니다.",
+    "category": "개발자 도구",
+    "price_krw": 14900,
+    "license_terms": "Gujo Pass 구독 멤버십",
+    "requirements": "macOS 14 이상 · Apple Silicon",
+    "release_note": "초기 릴리스 및 표준 메타데이터 명세 적용",
+    "features": [
+      {
+        "title": "직접 세션 부착",
+        "description": "방 식별자를 지정하여 격리된 작업 환경의 셸 세션에 즉시 접속합니다."
+      },
+      {
+        "title": "표준 입출력 실시간 스트리밍",
+        "description": "명령어 실행에 따른 표준 출력과 에러 출력을 지연 없이 터미널에 표시합니다."
+      },
+      {
+        "title": "다중 세션 탭 분할",
+        "description": "여러 방의 터미널을 나란히 배치하여 다중 에이전트의 작업을 동시 감시합니다."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "터미널에서 직접 키보드 입력을 보낼 수 있나요?",
+        "answer": "네, 일반 셸과 동일하게 대화형 입력과 시그널 전송이 모두 가능합니다."
+      },
+      {
+        "question": "출력 버퍼 크기를 늘릴 수 있나요?",
+        "answer": "스크롤백 버퍼 크기를 무제한으로 지정하여 긴 빌드 로그도 유실 없이 봅니다."
+      },
+      {
+        "question": "세션 연결이 끊어지면 실행 중인 명령도 종료되나요?",
+        "answer": "독립 세션 러너 위에서 실행되므로 터미널 GUI가 닫혀도 작업은 지속됩니다."
+      }
+    ]
+  },
+  "x-appraisal": {
+    "approved_verdict_run_id": "fd1b832f-6b71-4c59-870a-661088069304",
+    "draft": true,
+    "price_note": "Gujo Pass 구독 멤버십 포함"
+  }
+}

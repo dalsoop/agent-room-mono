@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "uuid": "app_01m20kdse2sr8t7ecv598y5n0z",
+  "name": "GujoRoomReleaseManager",
+  "bundle_id": "net.ranode.room-release-manager",
+  "cli": "room-release-manager",
+  "object": "Party Room Release Manager",
+  "display": "Party Room Release Manager",
+  "program": "room-release-manager",
+  "prefix": "app",
+  "gui_product": "PartyRoomReleaseManager",
+  "cli_product": "room-release-manager",
+  "dual_entry": "helpers",
+  "purpose": "파티룸(game-party-room-app)의 멀티 플랫폼 배포를 관리하는 macOS 메뉴바 앱",
+  "state_root_env": "SWIFT_APP_STATE_ROOT",
+  "cli_helper_path": "Contents/Helpers/room-release-manager",
+  "app_aliases": [
+    "PartyRoomReleaseManager.app"
+  ],
+  "note": "public CLI = kebab full name; dual_entry=helpers — PATH CLI product (never MacOS GUI app-link).",
+  "distribution": "internal",
+  "agent_surface": {
+    "skills": [
+      "party-room-release-manager-swift"
+    ],
+    "agents": [],
+    "attach_on": [
+      "skill-install",
+      "ship"
+    ],
+    "prefer_catalog_symlink": true
+  }
+}

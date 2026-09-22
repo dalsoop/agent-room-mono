@@ -1,0 +1,78 @@
+{
+  "uuid": "04ba9100-de92-4f26-b129-6ddfef7d503f",
+  "binding": {
+    "product_id": null,
+    "catalog_slug": "agent-room-monitor",
+    "store_catalog_id": null,
+    "store_catalog_url": null,
+    "gujo_api": "https://gujo.ai",
+    "support_url": "https://support.gujo.ai",
+    "account_url": "https://apps.gujo.ai/downloads",
+    "distribution_doc": "DISTRIBUTION.md"
+  },
+  "content": {
+    "ko": {
+      "name": "Agent Room Activity Monitor",
+      "summary": "활성 작업 공간 내 에이전트의 활동 상태와 자원 점유율을 실시간으로 모니터링하는 관제 도구입니다.",
+      "body_markdown_inline": "Agent Room Activity Monitor는 현재 운영 중인 모든 에이전트 방의 생존 상태와 CPU, 메모리 자원 소모량을 실시간 시각화하는 관제 애플리케이션입니다. 유휴 상태인 방과 과부하 상태인 방을 한눈에 식별하고, 비정상적으로 멈춘 에이전트를 감지하여 경고를 발생시킵니다."
+    },
+    "en": {
+      "name": "Agent Room Activity Monitor",
+      "summary": "Real-time activity monitor that visualizes active room states, CPU loads, and agent statuses.",
+      "body_markdown_inline": "Real-time activity monitor that visualizes active room states, CPU loads, and agent statuses. Provides native macOS architecture, robust performance, and dual-entry surface coverage."
+    }
+  },
+  "platforms": [
+    "macos"
+  ],
+  "runtime": "app",
+  "tags": [
+    "macos",
+    "gujo",
+    "개발자 도구"
+  ],
+  "x-store": {
+    "slug": "agent-room-monitor",
+    "title": "Agent Room Activity Monitor",
+    "tagline": "개별 작업 공간의 에이전트 가동률과 실시간 리소스 점유 상태를 관제하는 모니터",
+    "body": "Agent Room Activity Monitor는 현재 운영 중인 모든 에이전트 방의 생존 상태와 CPU, 메모리 자원 소모량을 실시간 시각화하는 관제 애플리케이션입니다. 유휴 상태인 방과 과부하 상태인 방을 한눈에 식별하고, 비정상적으로 멈춘 에이전트를 감지하여 경고를 발생시킵니다.",
+    "category": "개발자 도구",
+    "price_krw": 14900,
+    "license_terms": "Gujo Pass 구독 멤버십",
+    "requirements": "macOS 14 이상 · Apple Silicon",
+    "release_note": "초기 릴리스 및 표준 메타데이터 명세 적용",
+    "features": [
+      {
+        "title": "실시간 방별 상태 대시보드",
+        "description": "활성화된 모든 작업 공간의 실행 시간, 활성 프로세스 수, 부하율을 표출합니다."
+      },
+      {
+        "title": "유휴 및 과부하 감지",
+        "description": "장시간 작업이 없거나 임계 자원을 초과 점유하는 방을 시각적으로 강조합니다."
+      },
+      {
+        "title": "원클릭 포커스 이동",
+        "description": "대시보드에서 특정 방을 선택하여 해당 터미널 콘솔로 신속히 전환합니다."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "모니터링 데이터는 어디에 저장되나요?",
+        "answer": "로컬 메모리 캐시 및 일일 회전 로그에 저장되어 시스템 부담을 줄입니다."
+      },
+      {
+        "question": "동시에 몇 개의 방까지 감시할 수 있나요?",
+        "answer": "수십 개 이상의 작업 공간도 성능 저하 없이 매끄럽게 동시 관제합니다."
+      },
+      {
+        "question": "알림 임계치를 직접 설정할 수 있나요?",
+        "answer": "CPU 점유율과 무응답 제한 시간을 환경 설정에서 직접 조절할 수 있습니다."
+      }
+    ]
+  },
+  "x-appraisal": {
+    "approved_verdict_run_id": "028aa4c9-5249-430f-a7f9-e0c561502cd9",
+    "draft": true,
+    "price_note": "Gujo Pass 구독 멤버십 포함"
+  }
+}

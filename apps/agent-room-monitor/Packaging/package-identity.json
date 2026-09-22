@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "uuid": "app_01m20kemkp8q41ehhvvk7gn0zm",
+  "name": "GujoAgentRoomMonitor",
+  "bundle_id": "net.ranode.agent-room-monitor",
+  "cli": "agent-room-monitor",
+  "object": "AgentRoomMonitor",
+  "display": "Agent Room Monitor",
+  "program": "agent-room-monitor",
+  "dual_entry": "helpers",
+  "prefix": "app",
+  "gui_product": "AgentRoomMonitor",
+  "cli_product": "agent-room-monitor",
+  "cli_helper_path": "Contents/Helpers/agent-room-monitor",
+  "app_aliases": [
+    "AgentRoomMonitor.app"
+  ],
+  "agent_surface": {
+    "skills": [
+      "agent-room-monitor"
+    ],
+    "agents": [],
+    "attach_on": [
+      "skill-install",
+      "ship"
+    ],
+    "prefer_catalog_symlink": true
+  },
+  "note": "public CLI = kebab full name; dual_entry=helpers — PATH CLI product (never MacOS GUI app-link).",
+  "purpose": "방·자리·스킬·세션 스냅샷을 찍어 텔레메트리와 뷰 정의를 비교하는 모니터",
+  "state_root_env": "SWIFT_APP_STATE_ROOT"
+}

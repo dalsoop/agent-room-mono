@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "uuid": "app_01m20kd3g5jh5zbshh20ej8n0z",
+  "name": "GujoAgentRoomTerminal",
+  "bundle_id": "net.ranode.agent-room-terminal",
+  "cli": "agent-room-terminal",
+  "object": "AgentRoomTerminal",
+  "display": "Agent Room Terminal",
+  "program": "agent-room-terminal",
+  "purpose": "에이전트 작업 공간(방)과 상호작용하고 세션을 제어하는 전용 터미널",
+  "dual_entry": "helpers",
+  "prefix": "app",
+  "gui_product": "AgentRoomTerminal",
+  "cli_product": "agent-room-terminal",
+  "cli_helper_path": "Contents/Helpers/agent-room-terminal",
+  "app_aliases": [
+    "AgentRoomTerminal.app"
+  ],
+  "agent_surface": {
+    "skills": [
+      "agent-room-terminal"
+    ],
+    "agents": [],
+    "attach_on": [
+      "skill-install",
+      "ship"
+    ],
+    "prefer_catalog_symlink": true
+  },
+  "note": "public CLI = kebab full name; dual_entry=helpers — PATH CLI product (never MacOS GUI app-link).",
+  "extra_clis": [
+    "agent-room-terminal-daemon"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "uuid": "c32afbfa-67f2-436a-a166-9018b1977557",
+  "binding": {
+    "product_id": null,
+    "catalog_slug": "agent-room-isolator",
+    "store_catalog_id": null,
+    "store_catalog_url": null,
+    "gujo_api": "https://gujo.ai",
+    "support_url": "https://support.gujo.ai",
+    "account_url": "https://apps.gujo.ai/downloads",
+    "distribution_doc": "DISTRIBUTION.md"
+  },
+  "content": {
+    "ko": {
+      "name": "Agent Room Sandbox Isolator",
+      "summary": "에이전트 작업 공간의 프로세스 및 자원 격리를 엄격하게 보장하는 샌드박스 관리 도구입니다.",
+      "body_markdown_inline": "Agent Room Sandbox Isolator는 다중 에이전트가 동시에 작업할 때 발생할 수 있는 파일 충돌과 프로세스 간섭을 차단하는 샌드박스 격리 관리기입니다. 작업 공간별로 독립된 파일시스템 디렉터리와 환경 변수를 할당하고, 허용되지 않은 상위 디렉터리 접근을 철저히 차단합니다."
+    },
+    "en": {
+      "name": "Agent Room Sandbox Isolator",
+      "summary": "Enforces strict filesystem and process isolation for agent rooms and working sandboxes.",
+      "body_markdown_inline": "Enforces strict filesystem and process isolation for agent rooms and working sandboxes. Provides native macOS architecture, robust performance, and dual-entry surface coverage."
+    }
+  },
+  "platforms": [
+    "macos"
+  ],
+  "runtime": "app",
+  "tags": [
+    "macos",
+    "gujo",
+    "개발자 도구"
+  ],
+  "x-store": {
+    "slug": "agent-room-isolator",
+    "title": "Agent Room Sandbox Isolator",
+    "tagline": "각 에이전트의 작업 환경을 물리적 및 논리적으로 격리하는 샌드박스 제어기",
+    "body": "Agent Room Sandbox Isolator는 다중 에이전트가 동시에 작업할 때 발생할 수 있는 파일 충돌과 프로세스 간섭을 차단하는 샌드박스 격리 관리기입니다. 작업 공간별로 독립된 파일시스템 디렉터리와 환경 변수를 할당하고, 허용되지 않은 상위 디렉터리 접근을 철저히 차단합니다.",
+    "category": "개발자 도구",
+    "price_krw": 14900,
+    "license_terms": "Gujo Pass 구독 멤버십",
+    "requirements": "macOS 14 이상 · Apple Silicon",
+    "release_note": "초기 릴리스 및 표준 메타데이터 명세 적용",
+    "features": [
+      {
+        "title": "디렉터리 경계 보호",
+        "description": "배정된 작업 공간 외부로의 무단 파일 쓰기 및 수정을 원천적으로 차단합니다."
+      },
+      {
+        "title": "프로세스 자원 할당",
+        "description": "각 방마다 독립적인 프로세스 그룹을 생성하여 자원 경합을 방지합니다."
+      },
+      {
+        "title": "작업 종료 후 청소 보증",
+        "description": "작업이 종료되면 임시 아티팩트를 안전하게 회수하고 정돈된 상태로 복원합니다."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "공유 라이브러리 접근은 어떻게 처리하나요?",
+        "answer": "읽기 전용 마운트를 통해 안전하게 공용 자원을 참조할 수 있도록 지원합니다."
+      },
+      {
+        "question": "샌드박스 위반 시 알림이 오나요?",
+        "answer": "격리 경계를 벗어나는 파일 시스템 접근 시 즉시 차단 로그를 기록하고 경고합니다."
+      },
+      {
+        "question": "네트워크 접근도 격리할 수 있나요?",
+        "answer": "로컬 루프백 인터페이스만을 허용하는 격리 프로필을 적용할 수 있습니다."
+      }
+    ]
+  },
+  "x-appraisal": {
+    "approved_verdict_run_id": "8f100ede-9165-46f7-b8c5-d47a01237383",
+    "draft": true,
+    "price_note": "Gujo Pass 구독 멤버십 포함"
+  }
+}

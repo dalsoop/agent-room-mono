@@ -1,0 +1,143 @@
+"menu.refresh" = "새로고침";
+"menu.settings" = "설정…";
+"menu.quit" = "종료";
+"settings.title" = "AgentRoomTerminal 설정";
+"settings.language" = "언어";
+"settings.launch_at_login" = "로그인 시 실행";
+"cli.usage" = "AgentRoomTerminal — AgentRoomTerminal CLI (helpers dual-entry)
+
+명령:
+  capabilities              앱 상호운용 계약({ok,result} 봉투) 출력
+  version, -V, --version    CLI 스탬프 출력
+  help, -h, --help          이 도움말
+  open                      GUI 앱 열기(/usr/bin/open)
+
+다음 할 일(계약·ship·MR 절차): agent-cli-scaffold checklist --app agent-room-terminal
+
+기능 MR 머지 뒤 설치:
+  app-build-manager ship apps/<app> release";
+"cli.error.unknown_command" = "알 수 없는 명령: %@ (help 를 시도)";
+"cli.error.open_failed" = "열기 실패: %@";
+"onboarding.title" = "Agent Room Terminal";
+"onboarding.subtitle" = "방(Room) 격리 환경과 안전 벽으로 에이전트 세션을 안전하게 통제합니다.";
+"onboarding.feature.room.title" = "방(Room) 격리 작업 공간";
+"onboarding.feature.room.detail" = "에이전트마다 테넌트 폴더와 전용 터미널을 배정하여 독립된 방 안에서만 안전하게 실행합니다.";
+"onboarding.feature.shell.title" = "제한 셸 (zsh -r)";
+"onboarding.feature.shell.detail" = "cd 디렉터리 이동 제한, 리다이렉션 차단, 절대경로 실행 제한으로 셸 탈출을 방지합니다.";
+"onboarding.feature.path.title" = "전용 도구 경로 (bin/ PATH)";
+"onboarding.feature.path.detail" = "해당 방에 명시적으로 허용된 도구만 PATH에 노출하여 불필요한 시스템 명령어 실행을 차단합니다.";
+"onboarding.feature.seatbelt.title" = "커널 샌드박스 (seatbelt)";
+"onboarding.feature.seatbelt.detail" = "macOS sandbox-exec 커널 정책으로 방 폴더 및 임시 경로 외의 파일 쓰기를 원천 봉쇄합니다.";
+"onboarding.note" = "에이전트 세션은 안전하게 보호되며, 외부와의 소통은 인수인계와 승인된 도구로만 이루어집니다.";
+"onboarding.skip" = "나중에";
+"onboarding.start" = "시작하기";
+"onboarding.need_required" = "필수 항목을 켜 주세요";
+"onboarding.defaults.title" = "권장 기본값";
+"onboarding.defaults.detail" = "룸 샌드박스 경로와 로컬 저장소 기본값을 적용합니다.";
+"onboarding.required.title" = "필수 설정";
+"onboarding.required.detail" = "시스템이 묻는 항목을 켜야 룸 터미널이 동작합니다.";
+"onboarding.required.action" = "지금 켜기";
+"canvas.example" = "예시";
+"canvas.commandRoom" = "조정실";
+"canvas.view_mode.terminal" = "터미널";
+"canvas.view_mode.canvas" = "캔버스";
+"canvas.view_mode.perspective" = "관점";
+"timeline.activity" = "타임라인 및 활동";
+"canvas.tenant_filter.all" = "전체 테넌트";
+"canvas.hide_inactive" = "비활성 방 숨김";
+"canvas.fit_to_screen" = "화면 맞춤";
+"canvas.empty" = "표시할 방이 없습니다";
+"menu.stand_up" = "방 만들기";
+"standup.title" = "방 만들기";
+"standup.blueprint" = "설계도";
+"standup.tenant" = "테넌트";
+"standup.confirm" = "만들기";
+"standup.cancel" = "취소";
+"standup.empty" = "만들 설계도나 테넌트가 없습니다";
+"menu.open_room" = "세션 열기";
+"menu.close_room" = "세션 닫기";
+"menu.handoff" = "인수인계";
+"menu.simulate" = "인수인계 리허설";
+"menu.habits" = "학습된 절차 보기";
+"detail.markdown" = "ROOM.md";
+"detail.budget" = "컨텍스트 사용량";
+"detail.bottles" = "인수인계 메모";
+"detail.habits" = "학습된 절차";
+"detail.none" = "없음";
+"detail.empty" = "방을 선택하세요";
+"detail.excluded" = "제외된 도구";
+"detail.excluded_unknown" = "사유를 읽지 못했습니다";
+"detail.credential_seeded" = "Claude 로그인 준비됨";
+"detail.credential_unseeded" = "Claude 로그인 미준비";
+"budget.unknown" = "미계측";
+"settings.tuning" = "튜닝";
+"settings.idle_seconds" = "유휴 초";
+"settings.ring_lines" = "링 줄 수";
+"settings.handoff_factor" = "handoff 계수";
+"settings.replay_count" = "재연 건수";
+"settings.promote_successes" = "승격 횟수";
+"settings.restore_factory" = "순정 원복";
+
+"filter.active" = "진행 중";
+"filter.all" = "전체";
+"search.placeholder" = "방 검색…";
+"rooms.empty" = "표시할 방이 없습니다";
+"toolbar.open_session" = "세션 열기";
+"toolbar.close_session" = "세션 닫기";
+"toolbar.handoff" = "인수인계 메모 남기기";
+"toolbar.verdict" = "판정 실행";
+"toolbar.open_folder" = "작업 폴더 열기";
+"terminal.no_session" = "이 방에는 아직 열린 세션이 없습니다";
+"detail.task" = "작업";
+"detail.verdict" = "완료 조건";
+"detail.write_paths" = "쓰기 허용 경로";
+"detail.network" = "네트워크";
+"detail.wall_preset" = "벽 프리셋";
+"detail.attach_walls" = "벽 붙이기(attach)";
+"detail.occupant" = "입주자";
+"detail.seat_chain" = "좌석 사슬";
+"detail.seat_predecessor" = "전임";
+"detail.seat_current" = "현임";
+"detail.seat_successor" = "후임";
+"detail.seat_chain_none" = "사슬 없음";
+"detail.seat_chain_stale" = "스냅샷이 오래됨";
+"detail.seat_chain_unavailable" = "좌석 사슬을 읽지 못함";
+"preset.read_only" = "제한";
+"preset.toolbelt" = "도구함";
+"preset.open" = "호스트 전체 PATH";
+"network.open" = "허용";
+"network.blocked" = "차단";
+"network.allowed" = "허용";
+"settings.advanced" = "고급";
+"settings.idle_seconds_desc" = "세션 입력 대기 판정까지의 유휴 시간(초)";
+"settings.ring_lines_desc" = "터미널 버퍼에 보관할 최대 줄 수";
+"settings.handoff_factor_desc" = "인수인계 판단 임계 비율";
+"settings.replay_count_desc" = "재연 시 읽을 이전 작업 건수";
+"settings.promote_successes_desc" = "절차 승격에 필요한 연속 성공 횟수";
+
+"briefing.title" = "브리핑";
+"briefing.task" = "작업";
+"briefing.verdict" = "완료 조건";
+"briefing.write_paths" = "쓰기 가능";
+"briefing.tools" = "도구";
+"briefing.done" = "완료됨";
+"briefing.in_progress" = "진행 중";
+"briefing.default_tools" = "기본 도구";
+"briefing.none" = "없음";
+"briefing.host_path" = "호스트 전체 PATH";
+"briefing.sandbox" = "샌드박스";
+
+"detail.result" = "결과";
+"result.done" = "완료";
+"result.partial" = "부분";
+"result.blocked" = "차단됨";
+"result.open_log" = "launch.log 열기";
+
+"ledger.approved" = "승인됨";
+"ledger.rejected" = "반려됨";
+"ledger.gated" = "사람 게이트";
+"ledger.escalated" = "에스컬레이션";
+"ledger.blocked" = "차단됨";
+"budget.over" = "초과";
+"budget.handoff_due" = "인수인계";
+"budget.ok" = "정상";

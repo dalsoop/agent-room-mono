@@ -1,0 +1,86 @@
+"menu.refresh" = "Refresh";
+"menu.settings" = "Settings…";
+"menu.quit" = "Quit";
+"settings.title" = "AgentRoomWorktree Settings";
+"settings.language" = "Language";
+"settings.launch_at_login" = "Launch at Login";
+"cli.usage" = "AgentRoomWorktree — AgentRoomWorktree CLI (helpers dual-entry)
+
+Commands:
+  capabilities              Print the app interop contract ({ok,result} envelope)
+  version, -V, --version    Print CLI stamp
+  help, -h, --help          This help
+  open                      Open the GUI app (via /usr/bin/open)
+  status                    Bind count
+  provision                 Room concept → git worktree → MD
+  bind                      Record roomID ↔ worktree
+  emit-md                   Write ROOM.md DESIGN.md AGENTS.md
+  list                      List binds
+  show                      Show one bind
+  doctor                    Check binds, worktrees, MD files
+
+Next steps (contract · ship · MR): agent-cli-scaffold checklist --app agent-room-worktree
+
+Install after the feature MR is merged:
+  app-build-manager ship apps/<app> release
+
+Examples:
+  agent-room-worktree provision --task "…" --verify "…" --repo PATH --dry-run --json
+  agent-room-worktree list --json";
+"cli.error.unknown_command" = "unknown command: %@ (try help)";
+"cli.error.open_failed" = "open failed: %@";
+"cli.error.provision_required" = "provision needs --task --verify --repo";
+"cli.error.bind_required" = "bind needs --room --worktree --branch --repo";
+"cli.error.room_required" = "--room is required";
+"cli.error.task_empty" = "room task is empty";
+"cli.error.trivial_verify" = "trivial verify is not a verdict: %@";
+"cli.error.bind_not_found" = "no bind for room %@";
+"cli.error.occupant_required" = "provision needs --occupant or FORGE_ACTOR / AGENT_ACTOR";
+"cli.error.tenant_required" = "--tenant is required";
+"cli.list.empty" = "no room worktree binds";
+"onboard.title" = "Agent Room Worktree";
+"onboard.subtitle" = "Lock a room concept, bind a git worktree, then emit ROOM.md, DESIGN.md, and AGENTS.md.";
+"onboard.skip" = "Later";
+"onboard.finish" = "Get started";
+"onboard.need_required" = "Turn on required items";
+"onboard.defaults" = "Recommended defaults";
+"onboard.defaults_detail" = "State root and sqlite are created on first launch under the tenant StateRootKit path.";
+"onboard.required" = "Occupant and tenant";
+"onboard.required_detail" = "Provision needs an occupant identity and a tenant. Pass them or set FORGE_ACTOR.";
+"onboard.turn_on" = "Turn on now";
+"detail.occupant" = "Occupant";
+"detail.empty" = "No rooms bound yet. Use provision to lock a room concept, attach a git worktree, and emit ROOM.md / DESIGN.md / AGENTS.md.";
+"detail.task" = "Task";
+"detail.worktree" = "Worktree";
+"provision.title" = "New room";
+"provision.run" = "Create";
+"provision.dry_run" = "Dry run only (no git, no ledger)";
+"provision.hint" = "Lock the room concept (task and verdict) first. Worktree and MD come after.";
+"provision.cancel" = "Close";
+"window.title" = "Rooms";
+"sidebar.empty.title" = "No rooms";
+"sidebar.empty.body" = "Use + to lock a room concept and attach a git worktree.";
+"empty.hero" = "Room → worktree → design MD";
+"empty.concept" = "One sentence for the work, and a command that decides done.";
+"empty.worktree" = "A git worktree for this room. Do not commit on the main/ worktree.";
+"empty.documents" = "ROOM.md, DESIGN.md, AGENTS.md in the room folder. Never overwrite repo-root AGENTS.md.";
+"section.concept" = "Room concept";
+"section.worktree" = "Worktree";
+"section.documents" = "Design · MD";
+"detail.slug" = "Name";
+"detail.verify" = "Verdict";
+"detail.room_id" = "Room ID";
+"detail.plan_id" = "Placement";
+"detail.tenant" = "Tenant";
+"detail.branch" = "Branch";
+"detail.repo" = "Repository";
+"worktree.present" = "Present";
+"worktree.missing" = "Missing";
+"doc.present" = "Present";
+"doc.missing" = "Missing";
+"action.emit_md" = "Emit MD";
+"section.ledger" = "Ledger";
+"ledger.linked" = "Linked";
+"ledger.missing" = "Missing";
+"ledger.state" = "Placement";
+"ledger.occupant" = "Occupant";

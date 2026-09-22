@@ -1,0 +1,20 @@
+{
+  "cli": "agent-room-worktree",
+  "depends": [
+    {
+      "id": "cli.agent-work-todo",
+      "kind": "cli",
+      "ref": "agent-work-todo",
+      "required": true,
+      "why": "room ledger: spawn-room --waiting --workdir"
+    },
+    {
+      "id": "cli.agent-worktree-control-terminal",
+      "kind": "cli",
+      "ref": "agent-worktree-control-terminal",
+      "required": true,
+      "why": "git worktree create --inside"
+    }
+  ]
+}
+

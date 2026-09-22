@@ -1,0 +1,14 @@
+{
+  "expects": [
+    {
+      "provider": "agent-work-todo",
+      "commands": ["spawn-room"],
+      "why": "provision 이 방 원장을 spawn-room --waiting --workdir 로 연다. git/원장을 이 앱이 재구현하지 않는다."
+    },
+    {
+      "provider": "agent-worktree-control-terminal",
+      "commands": ["create"],
+      "why": "provision 이 git worktree 를 create --inside 로 만든다. git worktree 직접 호출 금지."
+    }
+  ]
+}

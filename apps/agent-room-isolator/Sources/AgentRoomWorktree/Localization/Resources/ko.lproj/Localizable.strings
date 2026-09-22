@@ -1,0 +1,82 @@
+"menu.refresh" = "새로고침";
+"menu.settings" = "설정…";
+"menu.quit" = "종료";
+"settings.title" = "AgentRoomWorktree 설정";
+"settings.language" = "언어";
+"settings.launch_at_login" = "로그인 시 실행";
+"cli.usage" = "AgentRoomWorktree — AgentRoomWorktree CLI (helpers dual-entry)
+
+명령:
+  capabilities              앱 상호운용 계약({ok,result} 봉투) 출력
+  version, -V, --version    CLI 스탬프 출력
+  help, -h, --help          이 도움말
+  open                      GUI 앱 열기(/usr/bin/open)
+  status                    결속 수
+  provision                 방 개념 → git 워크트리 → MD
+  bind                      roomID ↔ 워크트리 기록
+  emit-md                   ROOM.md DESIGN.md AGENTS.md 발행
+  list                      결속 목록
+  show                      결속 하나
+  doctor                    결속·워크트리·MD 점검
+
+다음 할 일(계약·ship·MR 절차): agent-cli-scaffold checklist --app agent-room-worktree
+
+기능 MR 머지 뒤 설치:
+  app-build-manager ship apps/<app> release";
+"cli.error.unknown_command" = "알 수 없는 명령: %@ (help 를 시도)";
+"cli.error.open_failed" = "열기 실패: %@";
+"cli.error.provision_required" = "provision 은 --task --verify --repo 가 필요합니다";
+"cli.error.bind_required" = "bind 는 --room --worktree --branch --repo 가 필요합니다";
+"cli.error.room_required" = "--room 이 필요합니다";
+"cli.error.task_empty" = "방 task 가 비었습니다";
+"cli.error.trivial_verify" = "판정이 아닙니다: %@";
+"cli.error.bind_not_found" = "방 %@ 결속이 없습니다";
+"cli.error.occupant_required" = "provision 은 --occupant 또는 FORGE_ACTOR / AGENT_ACTOR 가 필요합니다";
+"cli.error.tenant_required" = "--tenant 가 필요합니다";
+"cli.list.empty" = "결속된 방이 없습니다";
+"onboard.title" = "Agent Room Worktree";
+"onboard.subtitle" = "방 개념을 잠그고 git 워크트리를 결속한 뒤 ROOM.md · DESIGN.md · AGENTS.md 를 발행합니다.";
+"onboard.skip" = "나중에";
+"onboard.finish" = "시작하기";
+"onboard.need_required" = "필수 항목을 켜 주세요";
+"onboard.defaults" = "권장 기본값";
+"onboard.defaults_detail" = "첫 실행 때 상태 루트와 sqlite 가 테넌트 StateRootKit 경로 아래에 만들어집니다.";
+"onboard.required" = "착석과 테넌트";
+"onboard.required_detail" = "만들기에는 착석 신원과 테넌트가 필요합니다. 인자로 넘기거나 FORGE_ACTOR 를 설정하세요.";
+"onboard.turn_on" = "지금 켜기";
+"detail.occupant" = "착석";
+"detail.empty" = "결속된 방이 없습니다. provision 으로 방 개념을 잠그고 git 워크트리를 붙인 뒤 ROOM.md · DESIGN.md · AGENTS.md 를 발행합니다.";
+"detail.task" = "할 일";
+"detail.worktree" = "워크트리";
+"provision.title" = "새 방";
+"provision.run" = "만들기";
+"provision.dry_run" = "미리보기만 (git·원장 호출 안 함)";
+"provision.hint" = "방 개념(할 일·판정)을 먼저 적습니다. 워크트리와 MD는 그 다음입니다.";
+"provision.cancel" = "닫기";
+"window.title" = "방";
+"sidebar.empty.title" = "방이 없습니다";
+"sidebar.empty.body" = "왼쪽 위 + 로 방 개념을 잠그고 워크트리를 붙입니다.";
+"empty.hero" = "방 → 워크트리 → 설계 MD";
+"empty.concept" = "이 방이 하는 일 한 문장과, 끝났는지 가리는 명령.";
+"empty.worktree" = "그 방 전용 git worktree. 레포 main/ 에 커밋하지 않습니다.";
+"empty.documents" = "방 폴더에 ROOM.md · DESIGN.md · AGENTS.md. 레포 루트 AGENTS.md 는 안 덮습니다.";
+"section.concept" = "방 개념";
+"section.worktree" = "워크트리";
+"section.documents" = "설계 · MD";
+"detail.slug" = "이름";
+"detail.verify" = "판정";
+"detail.room_id" = "방 ID";
+"detail.plan_id" = "배치도";
+"detail.tenant" = "테넌트";
+"detail.branch" = "브랜치";
+"detail.repo" = "저장소";
+"worktree.present" = "있음";
+"worktree.missing" = "없음";
+"doc.present" = "있음";
+"doc.missing" = "없음";
+"action.emit_md" = "MD 발행";
+"section.ledger" = "원장";
+"ledger.linked" = "연결됨";
+"ledger.missing" = "없음";
+"ledger.state" = "배치 상태";
+"ledger.occupant" = "착석";

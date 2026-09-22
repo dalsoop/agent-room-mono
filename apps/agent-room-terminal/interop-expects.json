@@ -1,0 +1,37 @@
+{
+  "expects": [
+    {
+      "provider": "agent-work-todo",
+      "commands": [
+        "placement occupy",
+        "placement tick",
+        "placement list",
+        "placement handover"
+      ],
+      "why": "Room occupy, close tick, tree lookup, and handoff successor seating go through the work-todo ledger."
+    },
+    {
+      "provider": "agent-room-monitor",
+      "commands": [
+        "mutate spawn-room"
+      ],
+      "why": "Child rooms are created only through the monitor mutate spawn-room path."
+    },
+    {
+      "provider": "agent-tenant-isolation-manager",
+      "commands": [
+        "check",
+        "room show"
+      ],
+      "why": "Toolbelt compliance and tenant policy (stateRoot, wikiWorld) are owned by isolation-manager."
+    },
+    {
+      "provider": "agent-wiki",
+      "commands": [
+        "task",
+        "promotion"
+      ],
+      "why": "Habit promote publishes a tenant-world candidate then promotion publish --to gujo."
+    }
+  ]
+}
