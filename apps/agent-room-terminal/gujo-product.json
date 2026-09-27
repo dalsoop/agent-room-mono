@@ -1,10 +1,10 @@
 {
   "uuid": "098ed896-2135-42a6-aeda-317d1e483130",
   "binding": {
-    "product_id": null,
+    "product_id": 248,
     "catalog_slug": "agent-room-terminal",
-    "store_catalog_id": null,
-    "store_catalog_url": null,
+    "store_catalog_id": 248,
+    "store_catalog_url": "https://app.gujo.ai/catalog/248",
     "gujo_api": "https://gujo.ai",
     "support_url": "https://support.gujo.ai",
     "account_url": "https://app.gujo.ai/downloads",
