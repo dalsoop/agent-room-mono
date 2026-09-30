@@ -37,8 +37,6 @@
     "tagline": "에이전트 작업 공간에 직접 연결하여 명령을 실행하고 로그를 확인하는 터미널",
     "body": "Agent Room Command Terminal은 특정 작업 공간에 직접 부착하여 명령어를 내리고 실시간 표준 입출력을 주고받는 상호작용 터미널 인터페이스입니다. 터미널 다중 분할 뷰와 세션 유지 기능을 제공하여 에이전트의 복잡한 실행 과정을 현장에서 직접 디버깅할 수 있습니다.",
     "category": "개발자 도구",
-    "price_krw": 14900,
-    "license_terms": "Gujo Pass 구독 멤버십",
     "requirements": "macOS 14 이상 · Apple Silicon",
     "release_note": "초기 릴리스 및 표준 메타데이터 명세 적용",
     "features": [
@@ -72,7 +70,6 @@
   },
   "x-appraisal": {
     "approved_verdict_run_id": "fd1b832f-6b71-4c59-870a-661088069304",
-    "draft": true,
-    "price_note": "Gujo Pass 구독 멤버십 포함"
+    "draft": true
   }
 }

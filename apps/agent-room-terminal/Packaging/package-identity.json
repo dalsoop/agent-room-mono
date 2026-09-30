@@ -4,6 +4,7 @@
   "name": "GujoAgentRoomTerminal",
   "bundle_id": "net.ranode.agent-room-terminal",
   "cli": "agent-room-terminal",
+  "distribution": "external",
   "object": "AgentRoomTerminal",
   "display": "Agent Room Terminal",
   "program": "agent-room-terminal",

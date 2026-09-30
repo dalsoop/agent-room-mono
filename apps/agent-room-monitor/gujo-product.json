@@ -37,8 +37,6 @@
     "tagline": "개별 작업 공간의 에이전트 가동률과 실시간 리소스 점유 상태를 관제하는 모니터",
     "body": "Agent Room Activity Monitor는 현재 운영 중인 모든 에이전트 방의 생존 상태와 CPU, 메모리 자원 소모량을 실시간 시각화하는 관제 애플리케이션입니다. 유휴 상태인 방과 과부하 상태인 방을 한눈에 식별하고, 비정상적으로 멈춘 에이전트를 감지하여 경고를 발생시킵니다.",
     "category": "개발자 도구",
-    "price_krw": 14900,
-    "license_terms": "Gujo Pass 구독 멤버십",
     "requirements": "macOS 14 이상 · Apple Silicon",
     "release_note": "초기 릴리스 및 표준 메타데이터 명세 적용",
     "features": [
@@ -72,7 +70,6 @@
   },
   "x-appraisal": {
     "approved_verdict_run_id": "028aa4c9-5249-430f-a7f9-e0c561502cd9",
-    "draft": true,
-    "price_note": "Gujo Pass 구독 멤버십 포함"
+    "draft": true
   }
 }
