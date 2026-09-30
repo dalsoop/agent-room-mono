@@ -38,7 +38,6 @@
     "tagline": "파티룸(`game-party-room-app`) 멀티 플랫폼 배포를 관리하는 macOS 메뉴바 앱.",
     "body": "파티룸 Flutter 앱(game-party-room-app)의 Android APK, macOS DMG, Windows zip, iOS IPA 빌드를 한 창에서 돌린다. 소스 경로·산출물·flutter/gh 설치 여부를 프로브하고 GitHub Release 생성 힌트를 준다. PATH CLI party-room-release-manager 로 status·probe·build·config 를 같은 Core로 조작한다.",
     "category": "개발자 도구",
-    "license_terms": "Gujo Pass 구독 멤버십",
     "features": [
       {
         "title": "멀티 플랫폼 빌드",
@@ -72,7 +71,6 @@
   },
   "x-appraisal": {
     "source": "phase2-mechanical-fill-2026-08-15",
-    "draft": true,
-    "price_note": "Gujo Pass 구독 멤버십 포함"
+    "draft": true
   }
 }

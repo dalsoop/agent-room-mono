@@ -37,8 +37,6 @@
     "tagline": "각 에이전트의 작업 환경을 물리적 및 논리적으로 격리하는 샌드박스 제어기",
     "body": "Agent Room Sandbox Isolator는 다중 에이전트가 동시에 작업할 때 발생할 수 있는 파일 충돌과 프로세스 간섭을 차단하는 샌드박스 격리 관리기입니다. 작업 공간별로 독립된 파일시스템 디렉터리와 환경 변수를 할당하고, 허용되지 않은 상위 디렉터리 접근을 철저히 차단합니다.",
     "category": "개발자 도구",
-    "price_krw": 14900,
-    "license_terms": "Gujo Pass 구독 멤버십",
     "requirements": "macOS 14 이상 · Apple Silicon",
     "release_note": "초기 릴리스 및 표준 메타데이터 명세 적용",
     "features": [
@@ -72,7 +70,6 @@
   },
   "x-appraisal": {
     "approved_verdict_run_id": "8f100ede-9165-46f7-b8c5-d47a01237383",
-    "draft": true,
-    "price_note": "Gujo Pass 구독 멤버십 포함"
+    "draft": true
   }
 }

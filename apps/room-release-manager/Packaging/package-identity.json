@@ -18,7 +18,7 @@
     "PartyRoomReleaseManager.app"
   ],
   "note": "public CLI = kebab full name; dual_entry=helpers — PATH CLI product (never MacOS GUI app-link).",
-  "distribution": "internal",
+  "distribution": "external",
   "agent_surface": {
     "skills": [
       "party-room-release-manager-swift"

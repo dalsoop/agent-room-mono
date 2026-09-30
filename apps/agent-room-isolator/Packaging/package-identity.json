@@ -3,6 +3,7 @@
   "name": "GujoAgentRoomIsolator",
   "bundle_id": "net.ranode.agent-room-isolator",
   "cli": "agent-room-isolator",
+  "distribution": "external",
   "object": "AgentRoomWorktree",
   "display": "Agent Room Worktree",
   "program": "agent-room-isolator",

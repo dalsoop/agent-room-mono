@@ -4,6 +4,7 @@
   "name": "GujoAgentRoomMonitor",
   "bundle_id": "net.ranode.agent-room-monitor",
   "cli": "agent-room-monitor",
+  "distribution": "external",
   "object": "AgentRoomMonitor",
   "display": "Agent Room Monitor",
   "program": "agent-room-monitor",
