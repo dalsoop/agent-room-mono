@@ -4,10 +4,10 @@
     "product_id": 247,
     "catalog_slug": "agent-room-monitor",
     "store_catalog_id": 247,
-    "store_catalog_url": "https://app.gujo.ai/catalog/247",
-    "gujo_api": "https://gujo.ai",
-    "support_url": "https://support.gujo.ai",
-    "account_url": "https://app.gujo.ai/downloads",
+    "store_catalog_url": "https://app.gujo.io/catalog/247",
+    "gujo_api": "https://gujo.io",
+    "support_url": "https://support.gujo.io",
+    "account_url": "https://app.gujo.io/downloads",
     "distribution_doc": "DISTRIBUTION.md"
   },
   "content": {
